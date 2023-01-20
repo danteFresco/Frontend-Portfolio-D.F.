@@ -1,0 +1,155 @@
+
+.navbar{
+    padding: 5px;
+    background-color: rgb(8, 37, 37);
+    }
+    .navbar-collapse{
+        align-items: center;
+    }
+    .navbar-brand img{
+    width: 250px;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+      
+    }
+    .seccion-oscura{
+        background-color: rgb(8, 37, 37);
+        color: antiquewhite;
+    }
+    .seccion-clara{
+        color: black;
+        background-color: rgb(11, 104, 56);
+    }
+    
+    .hero{
+        background-color: rgb(31, 125, 93);
+        min-height: 450px;
+        text-align: center;
+    }
+    .hero div{
+        padding: 3rem;
+    }
+    .hero img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 20px; 
+    }
+    .hero h2{
+        color: rgb(37, 37, 37);
+    }
+    .sobre-mi{
+        height: 500px;
+        padding: 10px;
+        text-align: center;
+    }
+    .experiencia{
+        text-align: center;
+        padding: 40px;
+    }
+    .experiencia .row div {
+        height: 230px;
+        border: 10px;
+        margin-bottom: 10px;
+    }
+    .experiencia h2 {
+        margin: 15px;
+    }
+    .experiencia .columna{
+        padding: 20px;
+        border: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: all 0.2s ease-in;
+    }
+    .experiencia .columna:hover{
+        color: antiquewhite;
+        background-color: rgb(11, 104, 56);
+    }
+    .badges-container{
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .badge{
+        margin:  5px ;
+    }
+    
+    .Educacion{
+        padding: 40px;
+        border: 2px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    
+    .Habilidades{
+        text-align: center;
+        padding: 40px;
+    }
+    .Habilidades .row div {
+        height: 230px;
+        border: 10px;
+        margin-bottom: 10px;
+    }
+    .Habilidades h2 {
+        margin: 15px;
+    }
+    .Habilidades .columna{
+        padding: 20px;
+        border: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: all 0.2s ease-in;
+    }
+    .Habilidades .columna:hover{
+        color: antiquewhite;
+        background-color: rgb(11, 104, 56);
+    }
+    
+    .proyectos{
+        padding: 40px;
+        border: 2px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: all 0.2s ease-in;
+    }
+    .proyectos .row{
+        margin-top: 20px ;
+        margin-bottom: 20px;
+    }
+    .proyectos .row:hover{
+        color: antiquewhite;
+        background-color: rgb(8, 37, 37);
+    }
+    footer{
+        padding: 40px;
+        border: 2px;
+    }
+    
+    @media screen and (max-width: 767) {
+        .navbar-brand{
+            display: none;
+        }
+    }
